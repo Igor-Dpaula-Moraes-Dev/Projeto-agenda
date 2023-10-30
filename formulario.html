@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <header>
+         <h1>Formulário</h1>
+         <a href="index.html"><button class="botoes">Home</button></a>
+         <br><br>
+    </header>
+
+    <form action="" method="">
+        <label for="user">Nome:</label>
+        <input id="user" type="text" placeholder="Digite aqui" required>
+        <br><br>
+        <label for="pass">Senha:</label>
+        <input id="pass" type="password" placeholder="Digite Sua senha" required>
+        <br><br>
+        <label for="email">E-mail:</label>
+        <input id="email" type="email" placeholder="Digite seu e-mail" required>
+        <br><br>
+        <input type="submit" value="Enviar Dados">
+        <hr>
+         <div>
+            <p> Escolha Seu  Genêro</p>
+            <input id="fem" type="radio" name="genero" value="Homem" >
+            <label for="fem">Mulher</label>
+             <input id="masc" type="radio" name="genero" value="Mulher">
+            <label for="masc">Homem</label>
+            <input id="outros" type="radio" name="genero" value="Outros">
+            <label for="outros" >Outros</label>
+            <hr>
+         </div>
+         <div>
+            Quais  Raças  Você se encherga
+            <br>
+            <input id="negro" type="checkbox" value="negro" name="Negro">
+            <label for="negro">Negro</label>
+            <br>
+            <input id="branco" type="checkbox" value="branco">
+            <label for="branco">Branco</label>
+            <br>
+            <input id="outras" type="checkbox" value="outras">
+            <label for="outras">Outras</label>
+         </div>
+         <H2>Escolha os  tipos de  Eventos  que deseja  Agendar</H2>
+         <select name="compromissos" id="comp">
+            <option value=""selected disabled>Selecione uma Opção</option>
+            <option value="festas">Festas</option>
+            <option value="reunião">Reuniões</option>
+            <option value="palestras">Palestras</option>
+            <option value="eventos">Outros eventos</option>
+         </select>
+
+        
+        
+
+    </form>
+    <br>
+    <textarea name="sugest" id="sugest" cols="30" rows="10">Digite sua sugestao</textarea>
+
+   
+    
+</body>
+</html>
